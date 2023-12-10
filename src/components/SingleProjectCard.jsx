@@ -15,7 +15,7 @@ const SingleProjectCard = ({ description, image, title, url, gitHub }) => {
           <a
             href={url}
             target='blank'
-            className='bg-emerald-500 text-white py-2 px-6 rounded-lg hover:bg-emerald-600 duration-200'
+            className='bg-emerald-800 text-emerald-50 py-2 px-6 rounded-lg hover:bg-emerald-600 duration-200'
           >
             take a look
           </a>
