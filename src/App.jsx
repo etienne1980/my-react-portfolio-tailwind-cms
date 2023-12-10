@@ -13,7 +13,7 @@ const App = () => {
       <SkillList />
       <About />
       <ProjectList />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 };
