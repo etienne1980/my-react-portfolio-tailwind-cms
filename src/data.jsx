@@ -25,16 +25,16 @@ export const contact = [
     title: "linkedin",
     text: "LinkedIn",
     icon: (
-      <FaLinkedin className='text-slate-500 text-3xl hover:text-black duration-300' />
+      <FaLinkedin className='text-slate-500 text-2xl hover:text-black duration-300' />
     ),
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit",
   },
   {
     id: nanoid(),
     title: "mobile",
     text: "+34 617 79 1479",
     icon: (
-      <FaPhone className='text-slate-500 text-3xl hover:text-black duration-300' />
+      <FaPhone className='text-slate-500 text-2xl hover:text-black duration-300' />
     ),
   },
   {
@@ -42,7 +42,7 @@ export const contact = [
     title: "email",
     text: "andrea.desantis2@gmail.com",
     icon: (
-      <FaEnvelope className='text-slate-500 text-3xl hover:text-black duration-300' />
+      <FaEnvelope className='text-slate-500 text-2xl hover:text-black duration-300' />
     ),
   },
 ];
@@ -60,7 +60,7 @@ export const socialIcon = [
     icon: (
       <FaLinkedin className='text-slate-500 text-3xl hover:text-black duration-300' />
     ),
-    href: "https://github.com/",
+    href: "https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit",
   },
 ];
 
