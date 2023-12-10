@@ -1,5 +1,4 @@
 import About from "./components/About";
-import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import ProjectList from "./components/ProjectList";
@@ -13,7 +12,6 @@ const App = () => {
       <SkillList />
       <About />
       <ProjectList />
-      {/* <Contact /> */}
     </>
   );
 };
