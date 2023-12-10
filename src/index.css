@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* creating a custom class */
+@layer components {
+  .align-element {
+    /* max w 1280px */
+    @apply max-w-7xl mx-auto  px-8 py-4;
+  }
+
+  .bord {
+    @apply border border-slate-700;
+  }
+}
