@@ -4,14 +4,14 @@ const SingleProjectCard = ({ description, image, title, url, gitHub }) => {
   return (
     <article className='bg-white rounded-lg shadow-md hover:shadow-xl duration-300'>
       <img
-        className='w-full h-52 object-cover rounded-t-lg'
+        className='w-full h-52 object-cover rounded-t-lg border-b border-emerald-600 '
         src={image}
         alt='project img'
       />
       <div className='capitalize p-8 flex flex-col gap-5'>
         <h2 className='text-xl font-medium tracking-wide'>{title}</h2>
         <p className='text-slate-700 leading-loose'>{description}</p>
-        <div className='flex gap-3'>
+        <div className='flex justify-start items-center gap-5'>
           <a
             href={url}
             target='blank'
