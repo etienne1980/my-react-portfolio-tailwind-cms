@@ -36,6 +36,7 @@ export const contact = [
     icon: (
       <FaPhone className='text-slate-500 text-2xl hover:text-black duration-300' />
     ),
+    href: "#",
   },
   {
     id: nanoid(),
@@ -44,6 +45,7 @@ export const contact = [
     icon: (
       <FaEnvelope className='text-slate-500 text-2xl hover:text-black duration-300' />
     ),
+    href: "#",
   },
 ];
 
