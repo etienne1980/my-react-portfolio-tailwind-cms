@@ -20,15 +20,15 @@ export const links = [
 ];
 
 export const contact = [
-  {
-    id: nanoid(),
-    title: "linkedin",
-    text: "LinkedIn",
-    icon: (
-      <FaLinkedin className='text-slate-500 text-2xl hover:text-black duration-300' />
-    ),
-    href: "https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit",
-  },
+  // {
+  //   id: nanoid(),
+  //   title: "linkedin",
+  //   text: "LinkedIn",
+  //   icon: (
+  //     <FaLinkedin className='text-slate-500 text-2xl hover:text-black duration-300' />
+  //   ),
+  //   href: "https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit",
+  // },
   {
     id: nanoid(),
     title: "mobile",
@@ -36,7 +36,6 @@ export const contact = [
     icon: (
       <FaPhone className='text-slate-500 text-2xl hover:text-black duration-300' />
     ),
-    href: "#",
   },
   {
     id: nanoid(),
@@ -45,7 +44,6 @@ export const contact = [
     icon: (
       <FaEnvelope className='text-slate-500 text-2xl hover:text-black duration-300' />
     ),
-    href: "#",
   },
 ];
 
