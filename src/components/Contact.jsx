@@ -9,9 +9,9 @@ const Contact = () => {
         <SectionTitle text={"get in touch"} />
         <div className='grid md:grid-cols-2 py-6'>
           {contact.map((item) => {
-            const { id, text, title, icon } = item;
+            const { id, text, icon } = item;
             //   optional chaining for the href
-            const url = item?.href;
+
             return (
               <div key={id} className='flex justify-center gap-3 mt-5'>
                 <span>{icon}</span>
